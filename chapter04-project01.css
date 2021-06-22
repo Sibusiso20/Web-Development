@@ -1,0 +1,60 @@
+/* Reset */
+html, body, header, footer, main, nav, article, section, figure, figcaption,
+h1, h3, ul, li, body, div, p, img{
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  border: 0;
+}
+
+/* Header and footer */
+header, footer {
+  color: white;
+  background-color: #1A237E;
+  margin: 0em 4em 0.25em 4em;
+  padding-left: 2em;
+}
+#headerList {
+  color: #00B0FF;
+  background-color: #3F51B5;
+  margin: 0em;
+}
+#headerTitle {
+  font-size: large3;
+}
+#headerOpener {
+  font-style: italic;
+}
+
+head {
+  font-style: sans-serif;
+}
+
+/* Body */
+body {
+  background-color: #E8EAF6;
+}
+
+section {
+  border: solid 4pt white;
+  padding: 4em;
+}
+
+h3 {
+  color: white;
+  background-color: #7986CB;
+  padding: 2em 0em 2em 0.5em;
+  text-transform: uppercase;
+}
+
+/* Reviews */
+#reviewsName {
+  font-style: italic;
+  color: #1A237E;
+}
+
+#reviewsDate {
+  font-style: italic;
+  color: #FF80AB;
+}
